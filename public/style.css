@@ -1,5 +1,6 @@
 div {
 	border-radius: 5px;
+
 }
 
 #header {
@@ -9,18 +10,10 @@ div {
   position: relative;
 }
 
-.left {
-	height: 600px;
-	width: 371px;
-	background-color: #cdcdcd;
-	float: left;
-	margin-bottom: 8px;
-}
 
 .right {
 	height: 600px;
-	width: 1028px;
-	background-color: #f19f4d;
+	background-color: #cdcdcd;
 	float: right;
 	margin-bottom: 8px;
 }
@@ -34,15 +27,17 @@ div {
 h1 {
   font-size: 135px;
   font-family: Impact;
-  margin-left: 160;
+  margin: center;
+	text-shadow: 5px 5px grey;
+
 }
 
 img {
   height: 130;
-  width: 170;
+  width: 150;
   position: absolute;
-  margin-top: -170px;
-  margin-left: 230px;
+  margin-top: -165px;
+  margin-left: 30px;
 
 }
 
@@ -80,21 +75,62 @@ ul {
     margin-right: 20px;
 }
 
-.button1 {
-    background-color: #f19f4d;
-    border: none;
-    color: black;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    height: 40px;
-    width: 150px;
-    font-size: 30px;
-    font-family: Impact;
-    border-radius: 6px;
-    margin-left: 80px;
-    margin-top: 62px;
+html {
+  background: #f7f7f7 url(http://css-tricks.com/examples/RoundButtons/images/bg.png) repeat center top;
+}
+#scroll{
+	position: absolute;
+	margin-top: 595px;
 }
 
-.button1:hover {background-color: #d66a00;}
+.nav {
+  list-style: none;
+  text-align: center;
+}
+
+.nav li {
+  position: relative;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.nav a:link, .nav a:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #f7f7f7;
+  color: black;
+  margin: 36px;
+  width: 144px;
+  height: 144px;
+  position: relative;
+  text-align: center;
+  line-height: 144px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+  border: solid 1px transparent;
+}
+
+.nav a:before {
+  content: "";
+  display: block;
+  background: #fff;
+  border-top: 2px solid #ddd;
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  bottom: -18px;
+  right: -18px;
+  z-index: -1;
+  border-radius: 50%;
+  box-shadow: inset 0px 8px 48px #ddd;
+}
+
+.nav a:active {
+  box-shadow: 0px 3px 4px #aaa inset, 0px 2px 3px #fff;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: black;
+  background: #cdcdcd;
+}​
