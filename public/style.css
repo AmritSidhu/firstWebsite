@@ -19,7 +19,7 @@ div {
 
 .right {
 	height: 600px;
-	width: 1028px;
+	width: 1043px;
 	background-color: #f19f4d;
 	float: right;
 	margin-bottom: 8px;
@@ -78,6 +78,15 @@ ul {
     font-family: Verdana;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+div marquee {
+	margin-top: -88px;
+	position: absolute;
+}
+marquee {
+	margin-top: 595px;
+	position: absolute;
 }
 
 .button1 {
