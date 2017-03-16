@@ -3,107 +3,190 @@ div {
 }
 
 #header {
-	height: 170px;
-	background-color: #cdcdcd;
+	height: 22%;
+	background-color: white;
 	margin-bottom: 8px;
-  position: relative;
+	opacity: 0.6;
 }
 
 .left {
-	height: 600px;
-	width: 371px;
-	background-color: #cdcdcd;
+	height: 76.3%;
+	width: 26.1%;
+	background-color: white;
 	float: left;
 	margin-bottom: 8px;
+	opacity: 0.6;
 }
 
+.left2 {
+	height: 76.3%;
+	width: 32.7%;
+	background-color: white;
+	float: left;
+	margin-bottom: 8px;
+	opacity: 0.5;
+	color: black;
+}
+
+.left2:hover {background-color: purple;
+opacity: 0.3;}
+
+.panel {
+	height: 76.3%;
+	width: 32.7%;
+	background-color: white;
+	margin-bottom: 8px;
+	opacity: 0.5;
+	float: right;
+	color: black;
+}
+
+.panel:hover {
+	background-color: purple;
+	opacity: 0.3;}
+
+.panel2 {
+	height: 76.3%;
+	width: 32.7%;
+	background-color: white;
+	opacity: 0.5;
+	float: center;
+	margin-left: 33.65%;
+	margin-top: -4.5%;
+	color: black;
+}
+
+.panel2:hover {background-color: purple;
+opacity: 0.3;}
+
 .right {
-	height: 600px;
-	width: 1043px;
+	height: 76.3%;
+	width: 73.2%;
 	background-color: #f19f4d;
 	float: right;
 	margin-bottom: 8px;
+	opacity: 0.5;
 }
 
 #footer {
 	height: 50px;
-	background-color: #cdcdcd;
-	clear: both
+	background-color: white;
+	clear: both;
+	opacity: 0.6;
+}
+
+a {
+	text-decoration: none;
 }
 
 h1 {
-  font-size: 135px;
+  font-size: 9.8vw;
   font-family: Impact;
-  margin-left: 160;
+	position: relative;
+	text-decoration: none;
 }
 
-img {
-  height: 130;
-  width: 170;
-  position: absolute;
-  margin-top: -170px;
-  margin-left: 230px;
-
+h3{
+	font-family: Impact;
+	font-size: 3vw;
+	text-align: center;
+	padding-top: 50%;
+  vertical-align: middle;
+  line-height: 50px;
 }
 
-h3 {
-  font-family: Verdana;
-  font-size: 25px;
+h5{
+	font-family: Impact;
+	font-size: 3vw;
+	text-align: center;
+	padding-top: 60%;
+  vertical-align: middle;
+  line-height: 50px;
 }
 
 h4{
   font-family: Verdana;
-  font-size: 13px;
+  font-size: 1vw;
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
 }
 
-h5 {
-  margin-left: 20px;
-  font-size: 20px;
-  font-family: Verdana;
-
+h2{
+	font-family: Verdana;
+	font-size: 1.6vw;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
+
 p {
-  font-size: 18px;
+  font-size: 1.2vw;
   font-family: Verdana;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 2%;
+	padding-right: 2%;
 }
 
 ul {
-    font-size: 18px;
-    font-family: Verdana;
-    margin-left: 20px;
-    margin-right: 20px;
+  font-size: 1.2vw;
+  font-family: Verdana;
+	padding-left: 4%;
+	padding-right: 4%;
 }
 
 div marquee {
 	margin-top: -88px;
-	position: absolute;
+	color: white;
+	opacity: 1;
 }
+
 marquee {
 	margin-top: 595px;
-	position: absolute;
+	color: white;
+	opacity: 0.5;
 }
 
 .button1 {
-    background-color: #f19f4d;
-    border: none;
-    color: black;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    height: 40px;
-    width: 150px;
-    font-size: 30px;
-    font-family: Impact;
-    border-radius: 6px;
-    margin-left: 80px;
-    margin-top: 62px;
+  background-color: #f19f4d;
+  border: none;
+  color: black;
+  padding: 5% 7%;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  height: 6%;
+  width: 43%;
+  font-size: 2.2vw;
+  font-family: Impact;
+  border-radius: 6%;
+	margin: 0 auto;
+	margin-top: 16.7%;
 }
 
 .button1:hover {background-color: #d66a00;}
+
+html {
+  background: #f7f7f7 url(http://hdimages.org/wp-content/uploads/2016/11/html-background-image-HD1-768x432.jpg) repeat center top;
+}
+
+.emboss {
+  color: black;
+  text-shadow: -1px -1px 1px #FFFFFF, 1px 1px 1px #000000;
+}
+
+.emboss h1 {
+  opacity: 0.5;
+}
+
+h5:hover{
+    color:white;
+    text-decoration:none;
+   }
+	 
+h3:hover{
+	   color:white;
+	   text-decoration:none;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }

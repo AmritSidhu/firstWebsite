@@ -16,6 +16,6 @@ get '/shoppingcart' do
   File.read("shoppingcart.html")
 end
 
-get '/shortgame' do
-  File.read("shortgame.html")
+get '/education' do
+  File.read("education.html")
 end
