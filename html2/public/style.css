@@ -1,0 +1,150 @@
+div {
+	border-radius: 5px;
+
+}
+
+#header {
+	height: 170px;
+	background-color: #cdcdcd;
+	margin-bottom: 8px;
+  position: relative;
+	opacity: 0.6;
+}
+
+
+.right {
+	height: 600px;
+	background-color: #cdcdcd;
+	float: right;
+	margin-bottom: 8px;
+	opacity: 0.7;
+}
+
+#footer {
+	height: 50px;
+	background-color: #cdcdcd;
+	clear: both
+}
+
+h1 {
+  font-size: 135px;
+  font-family: Impact;
+  margin: center;
+	text-shadow: 5px 5px grey;
+
+}
+
+img {
+  height: 130;
+  width: 150;
+  position: absolute;
+  margin-top: -165px;
+  margin-left: 30px;
+
+}
+
+h3 {
+  font-family: Verdana;
+  font-size: 25px;
+}
+
+h4{
+  font-family: Verdana;
+  font-size: 13px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+h5 {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: Verdana;
+
+}
+
+p {
+  font-size: 18px;
+  font-family: Verdana;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ul {
+    font-size: 18px;
+    font-family: Verdana;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+html {
+  background: #f7f7f7 url(http://css-tricks.com/examples/RoundButtons/images/bg.png) repeat center top;
+}
+
+#scroll{
+	position: absolute;
+	margin-top: 595px;
+}
+
+.nav {
+  list-style: none;
+  text-align: center;
+	opacity: 0.6;
+}
+
+.nav li {
+  position: relative;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.nav a:link, .nav a:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #ffb732;
+  color: black;
+  margin: 36px;
+  width: 144px;
+  height: 144px;
+  position: relative;
+  text-align: center;
+  line-height: 144px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+  border: solid 1px transparent;
+}
+
+.nav a:before {
+  content: "";
+  display: block;
+  background: red;
+  border-top: 2px solid #ddd;
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  bottom: -18px;
+  right: -18px;
+  z-index: -1;
+  border-radius: 50%;
+  box-shadow: inset 0px 8px 48px #ddd;
+}
+
+.nav a:active {
+  box-shadow: 0px 3px 4px #aaa inset, 0px 2px 3px #fff;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: black;
+  background: yellow;
+}
+
+html {
+  background: #f7f7f7 url(http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg) repeat center top;
+
+}
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}

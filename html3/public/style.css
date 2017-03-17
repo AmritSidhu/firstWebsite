@@ -1,0 +1,126 @@
+
+h1 {
+  margin-top: -6.5%;
+  font-size: 5vw;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: white;
+}
+h2{
+  font-size: 1.5vw;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: white;
+  margin-top: -6.3%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282E34;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color:#BA5151;
+}
+
+.active {
+    background-color:#BA5151;
+}
+
+.textbox {
+  height: 50%;
+  width: 30%;
+  background-color: white;
+  opacity: 0.5%;
+  margin-left: 5%;
+  position: absolute;
+  top: 100%;
+  margin-top: 50px;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://images7.alphacoders.com/418/thumb-1920-418746.jpg");
+  min-height: 100%;
+  filter: grayscale(50%);
+
+}
+
+
+.bgimg-3 {
+  background-image: url("https://images7.alphacoders.com/353/thumb-1920-353611.jpg");
+  min-height: 100%;
+  filter: grayscale(50%);
+
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.footer {
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:20px 80px;
+  text-align:center;
+}
+
+.middlebox {
+  color: #777;
+  background-color: black;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+span.border {
+    background-color: red;
+    color: #fff;
+    padding: 19px;
+    font-size: 40px;
+    letter-spacing: 6.5px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;}
+
+span.border2 {
+      background-color: orange;
+      color: #fff;
+      padding: 19px;
+      font-size: 40px;
+      letter-spacing: 6.5px;
+      font-family: Futura, "Trebuchet MS", Arial, sans-serif;}
