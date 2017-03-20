@@ -5,6 +5,7 @@ h1 {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   color: white;
 }
+
 h2{
   font-size: 1.5vw;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
@@ -12,33 +13,42 @@ h2{
   margin-top: -6.3%;
 }
 
+h6 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 4vw;
+	text-align: center;
+	padding-top: 19%;
+}
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #282E34;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #282E34;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 li a:hover:not(.active) {
-    background-color:#BA5151;
+  background-color:orange;
+  opacity: 0.8;
 }
 
 .active {
-    background-color:#BA5151;
+  background-color:#ff3232;
+  opacity: 0.8;
 }
 
 .textbox {
@@ -52,7 +62,6 @@ li a:hover:not(.active) {
   margin-top: 50px;
 }
 
-
 body, html {
   height: 100%;
   margin: 0;
@@ -60,28 +69,25 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-3 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+
 .bgimg-1 {
   background-image: url("https://images7.alphacoders.com/418/thumb-1920-418746.jpg");
   min-height: 100%;
   filter: grayscale(50%);
-
 }
-
 
 .bgimg-3 {
   background-image: url("https://images7.alphacoders.com/353/thumb-1920-353611.jpg");
   min-height: 100%;
-  filter: grayscale(50%);
-
+  filter: grayscale(40%);
 }
 
 .caption {
@@ -91,6 +97,7 @@ body, html {
   width: 100%;
   text-align: center;
   color: #000;
+  opacity: 0.8;
 }
 
 .footer {
@@ -103,24 +110,131 @@ body, html {
 
 .middlebox {
   color: #777;
-  background-color: black;
+  background-color: white;
   text-align:center;
-  padding:50px 80px;
+  padding:3px 3px;
   text-align: justify;
 }
 
 span.border {
-    background-color: red;
-    color: #fff;
-    padding: 19px;
-    font-size: 40px;
-    letter-spacing: 6.5px;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;}
+  background-color: #ff3232;
+  opacity: 0.8;
+  color: #fff;
+  padding: 1%;
+  font-size: 4vw;
+  letter-spacing: 6.5px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
 
 span.border2 {
-      background-color: orange;
-      color: #fff;
-      padding: 19px;
-      font-size: 40px;
-      letter-spacing: 6.5px;
-      font-family: Futura, "Trebuchet MS", Arial, sans-serif;}
+  background-color: orange;
+  color: #fff;
+  padding: 1%;
+  font-size: 4vw;
+  letter-spacing: 6.5px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+  span.border3 {
+  background-color: red;
+  color: #fff;
+  padding: 1%;
+  font-size: 4vw;
+  letter-spacing: 6.5px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.pannel1{
+  height: 70%;
+  width: 35%;
+  background-color: black;
+  opacity: 0.75;
+  float: left;
+  margin-top: 8.3%;
+  margin-left: 30px;
+  position: absolute;
+  text-align: center;
+}
+
+.pannel1:hover{
+  background-color: white;
+}
+
+.pannel2{
+  height: 70%;
+  width: 35%;
+  background-color: black;
+  opacity: 0.75;
+  float: right;
+  margin-top: 8.3%;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.pannel2:hover{
+  background-color: white;
+}
+
+table {
+  margin-top: 15px;
+  width: 100%;
+  border-spacing: 10.8px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+  font-size:1.1vw;
+}
+
+td {
+  text-align: center;
+}
+
+.flip-container {
+	perspective: 1000px;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 800px;
+	height: 540px;
+}
+
+.flipper {
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	position: relative;
+  background-color: blue;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+  background-color: red;
+  opacity: 0.55;
+}
+
+.back {
+	transform: rotateY(180deg);
+  background-color: #f19132;
+  opacity: 0.85;
+}
+
+.moveflip{
+  margin-top: auto;
+  margin-left: auto;
+}
+
+form {
+  display: inline-block;
+  background-color: orange;
+}
